@@ -100,7 +100,4 @@ src/
 │       ├── com.qacart.todo.testcases   # Test cases for Login and Todo functionalities
 │       └── com.qacart.todo.utils       # Utility classes (e.g., cookies, properties)
 allure-results/                         # Allure test results
-.
-.
-.
 ```
