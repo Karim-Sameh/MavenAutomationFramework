@@ -1,16 +1,28 @@
 # Maven Automation Testing Framework
 
 ## Overview
-This is a comprehensive automation testing framework designed to test a simple to-do list web application. It uses modern tools and libraries like Selenium WebDriver, TestNG, Maven, REST Assured, and Allure Reporting.
+This is a robust and scalable automation testing framework designed for a simple to-do list web application. The framework leverages modern testing tools and libraries to ensure reliable testing of both the frontend (UI) and backend (API) components of the application.
 
 ---
 
 ## Features
-- **UI Testing**: Automates interactions with the to-do application UI.
+- **UI Testing**: Automates user interactions with the web application's interface.
 - **API Testing**: Covers backend API endpoints for creating and deleting tasks.
 - **Cross-Browser Testing**: Supports Chrome, Firefox, Safari, and Edge.
 - **Reports**: Generates detailed test reports with Allure Reporting including screenshots.
-- **Data-Driven Testing**: Utilizes Java Faker for random data generation.
+- **Data-Driven Testing**: Uses Java Faker for generating dynamic test data.
+- **Parallel Test Execution**: Optimized test execution using TestNG.
+
+---
+
+## Tools and Technologies Used
+
+- **Selenium WebDriver**:
+- **TestNG**:
+- **REST Assured**:
+- **Maven**:
+- **Allure Reporting**:
+- **Java Faker**:
 
 ---
 
@@ -43,13 +55,11 @@ mvn clean install
 ---
 
 ## Usage
-
 ### Run Tests
 You can execute tests using Maven:
 ```
 mvn clean test
 ```
-
 ### Generate Allure Reports
 After running tests, generate an Allure report:
 ```
@@ -59,7 +69,6 @@ allure serve allure-results
 ---
 
 ## Key Dependencies
-
 The project relies on the following key libraries and tools:
 
 - **Selenium WebDriver**: For browser automation.
@@ -72,7 +81,6 @@ The project relies on the following key libraries and tools:
 ---
 
 ## Configuration
-
 Update the configuration in "**src/test/java/com/qacart/todo/config/production.properties**":
 ```
 baseURL=https://todo.qacart.com
@@ -83,7 +91,6 @@ password=your_password
 ---
 
 ## Project Structure
-
 The project follows a modular structure to ensure maintainability and scalability:
 ```
 
