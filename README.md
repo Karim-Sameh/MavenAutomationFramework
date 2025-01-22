@@ -92,14 +92,13 @@ The project follows a modular structure to ensure maintainability and scalabilit
 src/
 ├── main/
 ├── test/
-│   └── java/
-|       ├── com.qacart.todo.api         # API utilities and test logic
-│       ├── com.qacart.todo.base        # Base classes for tests and pages
-│       ├── com.qacart.todo.config      # Configuration and endpoints
-│       ├── com.qacart.todo.factory     # WebDriver factory
-│       ├── com.qacart.todo.objects     # Data model classes (e.g., User, Todo)
-│       ├── com.qacart.todo.pages       # Page Object Model classes
-│       ├── com.qacart.todo.testcases   # Test cases for Login and Todo functionalities
-│       └── com.qacart.todo.utils       # Utility classes (e.g., cookies, properties)
-allure-results/                         # Allure test results
+│   ├── java/
+|   │   ├── com.qacart.todo.api         # API utilities and test logic
+│   │   ├── com.qacart.todo.base        # Base classes for tests and pages
+│   │   ├── com.qacart.todo.config      # Configuration files and endpoints
+│   │   ├── com.qacart.todo.factory     # WebDriver factory
+│   │   ├── com.qacart.todo.objects     # Data model classes (e.g., User, Todo)
+│   │   ├── com.qacart.todo.pages       # Page Object Model classes
+│   │   ├── com.qacart.todo.testcases   # Test cases for Login and Todo functionalities
+│   │   └── com.qacart.todo.utils       # Utility classes (e.g., cookies, properties)
 ```
