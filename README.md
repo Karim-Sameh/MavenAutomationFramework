@@ -70,9 +70,11 @@ The framework uses a **production.properties** file to store configuration detai
 src/test/java/com/qacart/todo/config/production.properties
 ```
 Key properties:
-- **baseURL**=https://todo.qacart.com
-- **email**=your_email@example.com
-- **password**=your_password
+```
+baseURL=https://todo.qacart.com
+email=your_email@example.com
+password=your_password
+```
 
 ---
 
