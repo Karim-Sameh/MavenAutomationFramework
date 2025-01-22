@@ -16,7 +16,6 @@ This is a robust and scalable automation testing framework designed for a simple
 ---
 
 ## Tools and Technologies Used
-
 - **Selenium WebDriver**:
 - **TestNG**:
 - **REST Assured**:
@@ -35,7 +34,6 @@ This is a robust and scalable automation testing framework designed for a simple
 ---
 
 ## Setup Instructions
-
 ### 1. Clone the Repository
 ```
 git clone https://github.com/Karim-Sameh/MavenAutomationFramework.git
