@@ -16,75 +16,70 @@ This is a robust and scalable automation testing framework designed for a simple
 ---
 
 ## Tools and Technologies Used
-- **Selenium WebDriver**:
-- **TestNG**:
-- **REST Assured**:
-- **Maven**:
-- **Allure Reporting**:
-- **Java Faker**:
+- **Selenium WebDriver**: Automates browser interactions.
+- **TestNG**: Provides test configuration and execution.
+- **REST Assured**: Facilitates API testing.
+- **Maven**: Manages project dependencies and build lifecycle.
+- **Allure Reporting**: Generates detailed test reports.
+- **Java Faker**: Generates random test data.
 
 ---
 
 ## Prerequisites
 - Java Development Kit (JDK) 19 or higher installed.
-- Maven installed and configured.
+- Apache Maven installed and configured.
 - An IDE like IntelliJ IDEA or Eclipse.
 - A web browser (Chrome, Firefox, etc.) for testing.
 
 ---
 
-## Setup Instructions
-### 1. Clone the Repository
+## Setup and Usage Instructions
+### Clone the Repository
 ```
 git clone https://github.com/Karim-Sameh/MavenAutomationFramework.git
 ```
 
-### 2. Navigate to the Project Directory
+### Navigate to the Project Directory
 ```
 cd MavenAutomationFramework
 ```
 
-### 3. Install Dependencies
-Ensure all required dependencies are installed by running:
+### Install Dependencies
+Run the following Maven command to install all required dependencies:
 ```
 mvn clean install
 ```
 
----
-
-## Usage
 ### Run Tests
-You can execute tests using Maven:
+Execute the tests using Maven:
 ```
 mvn clean test
 ```
+
 ### Generate Allure Reports
-After running tests, generate an Allure report:
+After running the tests, generate an Allure report with the following command:
 ```
 allure serve allure-results
 ```
 
 ---
 
-## Key Dependencies
-The project relies on the following key libraries and tools:
-
-- **Selenium WebDriver**: For browser automation.
-- **TestNG**: For managing test execution.
-- **REST Assured**: For testing API endpoints.
-- **Allure**: For detailed and visually appealing test reports.
-- **Java Faker**: For generating fake test data.
-- **WebDriverManager**: For automatically managing browser drivers.
+## Configuration
+The framework uses a **production.properties** file to store configuration details. Update the following file to match your testing environment:
+```
+src/test/java/com/qacart/todo/config/production.properties
+```
+Key properties:
+- **baseURL**=https://todo.qacart.com
+- **email**=your_email@example.com
+- **password**=your_password
 
 ---
 
-## Configuration
-Update the configuration in "**src/test/java/com/qacart/todo/config/production.properties**":
-```
-baseURL=https://todo.qacart.com
-email=your_email@example.com
-password=your_password
-```
+## Sample Test Scenarios
+1. **User Authentication**: Verify login functionality with valid credentials.
+2. **Task Creation**: Ensure a new task can be successfully added.
+3. **Task Deletion**: Confirm a task can be deleted and the UI reflects the change.
 
 ---
 
